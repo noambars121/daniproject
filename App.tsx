@@ -84,7 +84,7 @@ const App: React.FC = () => {
   const handleAdminAuth = (e: React.FormEvent) => {
       e.preventDefault();
       // Simple weak password for demo purposes - "24" for age 24
-      if (passcode === '24' || passcode === 'admin') {
+      if (passcode === '21' || passcode === 'admin') {
           setRole(UserRole.ADMIN);
           setIsAuthModalOpen(false);
           setShowAdminPanel(true);
